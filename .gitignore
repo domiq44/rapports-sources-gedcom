@@ -1,0 +1,33 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Generated GEDCOM and HTML reports
+/resultats_gedcom/
+/resultats_html/
+
+# Operating system files
+.DS_Store
+Thumbs.db

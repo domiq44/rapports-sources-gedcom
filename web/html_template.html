@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>Rapport GEDCOM - Sources</title>
+    <!-- CSS INLINE -->
+</head>
+<body>
+    <div class="container">
+        <header class="report-header">
+            <div>
+                <p class="eyebrow">GÉNÉALOGIE · INVENTAIRE</p>
+                <h1 id="report-title">Sources GEDCOM</h1>
+                <p class="report-description">Sources, dépôts et citations du fichier analysé</p>
+                <!-- GEDCOM FILE INFO -->
+            </div>
+            <nav class="nav-controls" aria-label="Navigation entre les sources">
+                <button id="first-btn" type="button" aria-label="Afficher la première source" title="Afficher la première source" disabled>|&larr;</button>
+                <button id="prev-page-btn" type="button" aria-label="Reculer du pas indiqué" title="Reculer du pas indiqué" disabled>&laquo;</button>
+                <button id="prev-btn" type="button" aria-label="Afficher la source précédente" disabled>&larr;</button>
+                <span id="source-position" class="source-position" aria-live="polite">0 / 0</span>
+                <button id="next-btn" type="button" aria-label="Afficher la source suivante">&rarr;</button>
+                <button id="next-page-btn" type="button" aria-label="Avancer du pas indiqué" title="Avancer du pas indiqué">&raquo;</button>
+                <button id="last-btn" type="button" aria-label="Afficher la dernière source" title="Afficher la dernière source">&rarr;|</button>
+                <label class="page-step-control" for="page-step">
+                    <span>Pas</span>
+                    <select id="page-step" aria-label="Nombre de sources par saut">
+                        <option value="10" selected>10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                    </select>
+                </label>
+            </nav>
+        </header>
+        <div class="report-options">
+            <label class="auto-scroll-control">
+                <input id="auto-scroll-citations" type="checkbox">
+                <span>Aller aux citations à chaque changement de source</span>
+            </label>
+            <label class="auto-scroll-control">
+                <input id="auto-scroll-notes" type="checkbox">
+                <span>Aller aux notes à chaque changement de source</span>
+            </label>
+        </div>
+        <div class="progress-track" role="progressbar" aria-label="Progression dans les sources" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
+            <span id="source-progress"></span>
+        </div>
+        <div id="content-area" tabindex="0" role="region" aria-label="Contenu GEDCOM">
+            <!-- LE CONTENU GENERÉ PAR LE SCRIPT VIENDRA ICI -->
+        </div>
+    </div>
+    <!-- JAVASCRIPT INLINE -->
+</body>
+</html>

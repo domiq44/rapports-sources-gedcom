@@ -1,0 +1,332 @@
+0 HEAD
+1 SOUR unregistered
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR ANSI
+1 PLAC
+2 FORM Ville,Code,Département,Région,Pays,Subdivision
+0 @I1@ INDI
+1 NAME Marcel/ANSELIN/
+1 BIRT
+2 DATE 31 DEC 1759
+2 PLAC Saint-Denis,,Réunion,Océan Indien,FRANCE,
+2 SOUR @S1@
+2 NOTE Marcel est né avec une dent.
+1 FAMS @F1@
+1 DEAT
+2 DATE AFT 25 MAR 1817
+2 PLAC Salleboeuf,33496,,,FRANCE,
+0 @I2@ INDI
+1 NAME /BIROT/Angèle
+2 NOTE Note (2) sur l’identité d’Angèle BIROT
+2 SOUR @S2@
+3 NOTE Note (3) sur la source attachée à l’identité
+1 NOTE Note (1) sur l’individu Angèle BIROT
+1 FAMC @F2@
+2 PEDI adopted
+1 FAMS @F1@
+1 DEAT
+2 PLAC Sainte-Rose,,Réunion,,FRANCE,Bois-Blanc
+2 AGE 48y
+0 @I3@ INDI
+1 NAME /DURUIT/Firmin
+2 GIVN Firmin
+1 CHR
+2 DATE EST 1760
+2 SOUR Registre paroissial de Sainte-Rose
+3 TEXT Il est des nôtres : il a bu ...
+3 NOTE Note sur une source intégrée
+2 AGNC Le curé DUCOIN
+1 SEX M
+1 DEAT
+2 NOTE Cette note ne suffit pas à attester le décès de Firmin
+0 @I4@ INDI
+1 NAME Cunégonde
+1 SEX F
+1 SOUR @S2@
+2 PAGE 418
+2 QUAY 1
+2 EVEN Les bonnes adresses charentaises
+3 ROLE Voir page 57
+2 DATA
+3 DATE JAN 1780
+3 TEXT L’incroyable histoire commence à Bouzillac ...
+2 NOTE Note sur la source pointée.
+1 FAMS @F6@
+1 DEAT
+2 DATE ABT JUL 1819
+2 CAUS Écrasée par la chute d’un jaque
+2 SOUR Les mémoires d’un vieux tangue
+3 CONT Édition de la Petite-France
+3 CONT page 231
+2 NOTE La 4L du vieux tangue avait heurté le jaquier
+0 @I5@ INDI
+1 NAME Marthe/EGOUILLARD/
+2 NICK La Rousse
+1 SEX F
+1 FAMS @F2@
+1 DEAT Y
+2 NOTE Cette mort est attestée !
+1 OCCU Femme de ménage
+2 DATE FROM 1785 TO 1787
+1 OCCU Femme au foyer
+2 DATE FROM 1788
+1 PROP 3 cochons et 17 poules
+2 DATE CAL 1795
+0 @I6@ INDI
+1 NAME /FORTILLON/
+1 SEX M
+1 FAMS @F2@
+2 NOTE Note sur un lien familial FAMS
+1 DEAT
+2 SOUR @S3@
+3 NOTE Cette source ne suffit pas à attester le décès !
+0 @I7@ INDI
+1 NAME Jeanne/GOUILLARD/mère
+1 BIRT
+2 DATE BET DEC 1770 AND MAR 1771
+2 FAMC @F2@
+2 NOTE Foyer rattaché à la naissance
+1 DEAT
+2 NOTE Cette mort n’est pas attestée !
+0 @I8@ INDI
+1 NAME Jean/HYLON/
+1 NAME Narcisse/ISSÉTOULABÉBÊTE/
+1 SEX M
+1 FAMS @F3@
+1 FAMS @F6@
+1 NMR 5
+1 ASSO @I13@
+2 TYPE INDI
+2 RELA Maîtresse
+2 SOUR @S3@
+3 NOTE Source de la relation Jean-Berthe
+2 NOTE Note sur la relation adultérine de Jean
+1 EVEN
+2 TYPE Élection
+2 DATE 1791
+2 PLAC France,Réunion
+3 FORM Pays,Département
+2 NOTE Mairie de Mafate
+0 @I9@ INDI
+1 NAME Annie/JOBARDE/
+2 NPFX Docteur
+1 GRAD
+2 TYPE CAP de peinture
+2 DATE CAL 1783
+1 TITL Comtesse
+2 DATE 14 JUL 1789
+2 PLAC Monte-Christo
+1 ADOP
+2 FAMC @F6@
+3 ADOP HUSB
+2 DATE DEC 1790
+2 NOTE Adoptée par Jean HYLON
+1 WILL
+2 TYPE En faveur de ses parents adoptifs
+2 DATE JAN 1791
+1 DEAT
+2 DATE (À la fin du XVIIIème siècle)
+1 BURI
+2 DATE 27 FEB 1791
+1 EVEN
+2 TYPE Exhumation
+2 DATE 28 FEB 1791
+2 CAUS Seuls ses parents adoptifs savent pourquoi ?
+1 CREM
+2 DATE 1 MAR 1791
+1 PROB
+2 DATE 1 APR 1791
+0 @I10@ INDI
+1 NAME Michèle/KEJÈME/
+1 SEX F
+1 OCCU Hôtesse
+2 DATE FROM 1779 TO 1789
+2 ADDR Le Flibustier
+3 CONT Impasse HOUPER
+3 CONT Bringuezac
+2 PHON 02 69 69 69 69
+2 NOTE @N1@
+1 FAMS @F4@
+1 NCHI 12
+2 CAUS Moyens de contraception de l’époque
+1 RETI
+2 DATE INT 1790 (Quelques mois après la prise de la Bastille)
+0 @I11@ INDI
+1 NAME Jean/LENCARTÉ/
+2 SPFX de
+1 FAMC @F4@
+1 IDNO #5674
+2 TYPE Matricule de Cayenne
+1 REFN Maxi 20 caractères | ;o)
+2 TYPE Atypique
+1 ALIA @I8@
+0 @I12@ INDI
+1 NAME Ludovic/MAREBOURS/
+1 BIRT
+2 TYPE Césarienne
+2 PLAC Port-Dauphin,,,,MADAGASCAR,
+3 NOTE Ne pas confondre avec la Porte Dauphine
+1 FAMC @F4@
+2 NOTE Note sur le foyer de Ludovic
+1 EDUC Faut pas trop demander
+0 @I13@ INDI
+1 NAME Berthe/OGRAMPIÉ/
+1 FAMC @F4@
+1 NATI Malgache
+2 DATE TO 1781
+1 DSCR Plantureuse femme des isles.
+1 SEX F
+1 IMMI
+2 TYPE Île de la Réunion
+2 CAUS Embarquée de force sur un bateau forban
+1 NATU
+2 DATE 1781
+1 NATI Française
+2 DATE FROM 1781
+1 FAMS @F5@
+1 RESI
+2 ADDR La maison aux volets rouges
+3 CONT Derrière l’église (Saint-Paul)
+2 DATE FROM SEP 1781 TO MAR 1782
+1 CENS
+2 DATE 1782
+0 @I14@ INDI
+1 NAME Michel/PORCENOU/
+1 SEX M
+1 BAPM
+2 TYPE Républicain
+2 DATE BEF OCT 1770
+1 EMIG
+2 TYPE Vers les Indes
+2 DATE 1780
+1 CHRA Y
+2 CAUS Pour pouvoir épouser Berthe
+1 RELI Catholique
+2 DATE AFT 1780
+1 FAMS @F5@
+1 EVEN
+2 TYPE Concubin trompé
+2 NOTE C’est un fait !
+2 CAUS Les infidélités de Berthe
+2 DATE 1983
+0 @I15@ INDI
+1 NAME Noémie/QUIDOUBLE/
+1 FAMC @F2@
+2 PEDI birth
+1 FAMC @F6@
+2 PEDI foster
+2 NOTE Ses parents étaient en prison
+1 SOUR @S1@
+1 SOUR @S3@
+1 FAMS @F3@
+1 SEX F
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 NOTE Famille d’asexués
+0 @F2@ FAM
+1 HUSB @I6@
+1 WIFE @I5@
+1 CHIL @I7@
+1 CHIL @I15@
+1 NOTE L’enfant @I2@ (Angèle BIROT) adopté n’a pas sa place ici !
+1 MARR
+2 TYPE civil
+2 DATE @#DHEBREW@ 23 ADR 5551
+2 NOTE C’est le 27 février 1791
+2 CAUS Marthe était enceinte ...
+2 NOTE Ce mariage a été imposé par le père de Marthe
+1 DIV
+2 DATE @#DFRENCH R@ 12 GERM an I
+2 NOTE C’est le 1 avril 1793
+1 MARR
+2 DATE @#DFRENCH R@ 12 GERM 2
+2 NOTE C’est le 1 avril 1794
+2 SOUR @S4@
+0 @F3@ FAM
+1 HUSB @I8@
+1 WIFE @I15@
+1 ENGA Y
+1 MARL Y
+1 MARS Y
+1 MARC Y
+1 MARB Y
+1 MARR
+2 DATE MAY 1792
+2 WIFE
+3 AGE 21y
+2 HUSB
+3 AGE 25y
+1 DIVF Y
+1 ANUL
+2 DATE JUN 1792
+1 NOTE La licence était fausse !
+1 CENS
+2 DATE 1792
+0 @F4@ FAM
+1 WIFE @I10@
+1 CHIL @I13@
+1 CHIL @I11@
+1 CHIL @I12@
+1 NOTE Michèle ne s’est jamais mariée
+1 NCHI 12
+0 @F5@ FAM
+1 HUSB @I14@
+1 WIFE @I13@
+1 EVEN
+2 TYPE Concubinage
+1 NOTE Ils ne se sont jamais mariés !
+0 @F6@ FAM
+1 HUSB @I8@
+1 WIFE @I4@
+1 MARR Y
+1 NOTE Il s’agit d’une famille d’accueil ...
+2 CONT Aucune raison de voir l’enfant ici.
+1 SOUR @S4@
+0 @N1@ NOTE Demander Madame Claude
+1 SOUR @S2@
+0 @S1@ SOUR
+1 TITL L’insipide vie de Marcel
+2 CONT Jean Aymar (Éditions de 15 heures)
+1 NOTE Note sur l’ouvrage ‘L’insipide vie de Marcel’
+1 REPO @R1@
+2 CALN À coté la la porte de gauche au troisième étage en prenant l’escalier de droite.
+3 MEDI Document agrafé
+2 NOTE Attention à la 36ème marche !
+0 @S2@ SOUR
+1 AUTH Père Arsène Pouillard
+1 TITL La cagouille futée
+1 PUBL Les éditions paroissiales
+1 TEXT Un point de rencontre incontournable pour les ...
+1 REPO @R2@
+2 NOTE Demander le numéro du mois
+1 DATA
+2 EVEN Restos, Ciné, et plus ;o)
+3 DATE (Chaque mois)
+3 PLAC Bringuezac,,,,,
+2 AGNC Presbytère de Bringuezac
+1 NOTE C’est une source sure !
+0 @S3@ SOUR
+1 TITL Les ragots dyonisiens
+2 CONT Dom FRI
+1 REPO @R2@
+0 @S4@ SOUR
+1 TITL Livret de famille
+1 REPO @R1@
+0 @R1@ REPO
+1 NAME Archives Municipales
+1 ADDR Mairie annexe
+2 ADR1 132 Allée de Turquoises
+2 ADR2 Bellepierre
+2 CITY Saint-Denis
+2 STAE Île de la Réunion
+2 POST 97400
+2 CTRY FRANCE
+1 NOTE Ouverture les jours ouvrés de 9h à 16h
+0 @R2@ REPO
+1 NAME Le Bistrot du Coin
+1 ADDR 3 rue Balzac
+2 CONT 16789 Bringuezac
+0 TRLR
